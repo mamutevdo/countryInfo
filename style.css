@@ -1,0 +1,137 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.saxeli,
+.captemp,
+.temp,
+.temperature-description,
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    
+    background: linear-gradient(to right , rgb(32, 32, 141), rgb(14, 77, 160), rgb(24, 125, 219),rgb(60, 148, 230) );
+    /* background-image: url(); */
+    
+}
+
+.ulu{
+    font-size: 50px;
+    cursor: pointer;
+    float: right;
+}
+
+li:hover{
+    color: rgb(70, 6, 131);
+}
+
+li{
+    font-size: 22px;
+}
+
+.button{
+    height: 38px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.search{
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: larger;
+    background-color: rgb(0, 247, 255);
+
+}
+
+.button:hover{
+    background-color: rgb(217, 231, 12);
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+body{
+    color: #fff;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+}
+
+.like{
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    margin-left: 84%;
+
+   
+    
+    
+}
+
+.dasax {
+    display: inline;
+    list-style-type: none;
+    cursor: pointer;
+    box-shadow:  0 0 6px 6px #04ddfa;
+    background-color: rgb(38, 106, 233);
+    border-radius: 20px;
+    text-align: center;
+    padding-right: 30px;
+    width: 100px;
+}
+
+.sata{
+    display: flex;
+    justify-content: center;
+}
+
+.gogsadze,
+.globusa{
+    font-size: 50px;
+    color: rgb(0, 247, 255);
+    
+}
+
+.gogsadze{
+    display: none;
+}
+
+.globusa{
+    display: none;
+}
+
+/* .like {
+   
+    right: 0;
+    top: 10rem;
+   
+    padding: 2rem 0;
+    width: 34rem;
+    background-color: #fff;
+    box-shadow: 0 0.8rem 5rem 2rem rgba(101, 90, 86, 0.1);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s .2s; } */

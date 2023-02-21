@@ -1,0 +1,27 @@
+@media only screen and ( max-width: 540px ){
+    .weather,
+    .info{
+        display: block; 
+
+    }
+   .ena,
+   .mosaxleoba,
+   .border,
+   .dedaqalaqi{
+    margin-left: 100px;
+   }
+   .saxeli{
+    margin-left: 50px;
+   }
+   body{
+    height: 130vh;
+   }
+   .main{
+    display: block;
+   }
+   .flag{
+    margin-left: 15px;
+   }
+}
+
+
